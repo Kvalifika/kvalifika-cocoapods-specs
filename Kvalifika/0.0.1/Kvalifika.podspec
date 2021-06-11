@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.author         = "Kvalifika"
     spec.platform       = :ios, '13.0'
     spec.swift_version  = '5.0'
-    spec.source       = { :git => 'https://github.com/vobi-io/kvalifika-ios-sdk.git', :tag => '0.0.1' }
+    spec.source       = { :http => "https://kvalifika-ios.s3.eu-central-1.amazonaws.com/sdk/0.0.1/Kvalifika.framework.zip" }
     spec.requires_arc = true
     spec.source_files  = 'Kvalifika/**/*.{swift}'
     spec.resource_bundles = {
