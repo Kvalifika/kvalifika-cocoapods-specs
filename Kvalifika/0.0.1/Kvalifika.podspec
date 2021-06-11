@@ -1,10 +1,9 @@
 Pod::Spec.new do |spec|
-
     spec.name           = 'Kvalifika'
     spec.version        = '0.0.1'
     spec.summary        = 'Kvalifika helps you to uniquely identify your users.'
     spec.description    = 'Kvalifika completes a facial recognition and checks for a valid government identification document to uniquely identify people.'
-    spec.homepage       = 'https://www.Kvalifika.com'
+    spec.homepage       = 'https://www.kvalifika.com'
     spec.license        = 'MIT'
     spec.author         = "Kvalifika"
     spec.platform       = :ios, '13.0'
@@ -16,8 +15,6 @@ Pod::Spec.new do |spec|
         'Kvalifika' => ['Kvalifika/**/*.{storyboard,png,gif,xcassets,ttf,xib,json,strings,bundle}']
     }
 
-    spec.dependency 'FaceTecSDK', '0.0.1' 
-
+    spec.dependency 'FaceTecSDK', '9.0.4'
     spec.vendored_frameworks = 'Kvalifika.framework'
-
 end
