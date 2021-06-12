@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.author         = "Kvalifika"
     spec.platform       = :ios, '13.0'
     spec.swift_version  = '5.0'
-    spec.source       = { :http => "https://kvalifika-ios.s3.eu-central-1.amazonaws.com/sdk/0.0.1/Kvalifika.framework.zip" }
+    spec.source       = { :http => "https://kvalifika-ios.s3.eu-central-1.amazonaws.com/sdk/Kvalifika-0.0.1.xcframework.zip" }
     spec.requires_arc = true
     spec.source_files  = 'Kvalifika/**/*.{swift}'
     spec.resource_bundles = {
@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
     }
 
     spec.dependency 'FaceTecSDK', '9.0.4'
-    spec.vendored_frameworks = 'Kvalifika.framework'
+    spec.vendored_frameworks = 'Kvalifika.xcframework'
 end
