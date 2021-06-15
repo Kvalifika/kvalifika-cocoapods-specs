@@ -1,14 +1,14 @@
 Pod::Spec.new do |spec|
   spec.name           = 'Kvalifika'
-  spec.version        = '0.0.6'
+  spec.version        = '0.0.7'
   spec.summary        = 'Kvalifika helps you to uniquely identify your users.'
   spec.description    = 'Kvalifika completes a facial recognition and checks for a valid government identification document to uniquely identify people.'
   spec.homepage       = 'https://www.kvalifika.com'
   spec.license        = 'MIT'
   spec.author         = "Kvalifika"
-  spec.platform       = :ios, '13.0'
+  spec.platform       = :ios, '11.0'
   spec.swift_version  = '5.0'
-  spec.source       = { :http => "https://kvalifika-ios.s3.eu-central-1.amazonaws.com/sdk/Kvalifika-0.0.6.xcframework.zip" }
+  spec.source       = { :http => "https://kvalifika-ios.s3.eu-central-1.amazonaws.com/sdk/Kvalifika-0.0.7.xcframework.zip" }
   spec.requires_arc = true
   spec.source_files  = 'Kvalifika/**/*.{swift}'
   spec.resource_bundles = {
