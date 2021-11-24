@@ -12,10 +12,14 @@ Pod::Spec.new do |spec|
     spec.requires_arc = true
     spec.source_files  = 'Kvalifika/**/*.{swift}'
     spec.resource_bundles = {
-    'Kvalifika' => ['Kvalifika/**/*.{storyboard,png,gif,xcassets,ttf,xib,json,strings,bundle}']
+        'Kvalifika' => ['Kvalifika/**/*.{storyboard,png,gif,xcassets,ttf,xib,json,strings,bundle}']
     }
 
     spec.dependency 'FaceTecSDK', '9.3.4'
-    spec.dependency 'Sentry', '~> 7.5.3'
+
+    spec.subspec 'Core' do |sp|
+        sp.dependency 'Sentry'
+    end
+
     spec.vendored_frameworks = 'Kvalifika.xcframework'
 end
