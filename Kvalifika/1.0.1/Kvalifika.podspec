@@ -16,10 +16,6 @@ Pod::Spec.new do |spec|
     }
 
     spec.dependency 'FaceTecSDK', '9.3.4'
-    spec.default_subspecs = ['Core']
-    spec.subspec 'Core' do |sp|
-        sp.dependency 'Sentry'
-    end
-
+    spec.dependency 'Sentry'
     spec.vendored_frameworks = 'Kvalifika.xcframework'
 end
