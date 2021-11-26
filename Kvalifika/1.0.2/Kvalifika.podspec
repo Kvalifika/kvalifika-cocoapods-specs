@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
     spec.name           = 'Kvalifika'
     spec.version        = '1.0.2'
     spec.summary        = 'Kvalifika helps you to uniquely identify your users.'
-    spec.description    = 'Kvalifika completes a sentry sdk integration.'
+    spec.description    = 'Kvalifika completes a new document API's integration.'
     spec.homepage       = 'https://www.kvalifika.com'
     spec.license        = 'MIT'
     spec.author         = "Kvalifika"
