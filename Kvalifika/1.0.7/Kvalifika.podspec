@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name           = 'Kvalifika'
-    spec.version        = '1.0.6'
+    spec.version        = '1.0.7'
     spec.summary        = 'Kvalifika helps you to uniquely identify your users.'
     spec.description    = 'Kvalifika completes a new document API integration and url changed.'
     spec.homepage       = 'https://www.kvalifika.com'
