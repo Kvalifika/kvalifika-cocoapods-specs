@@ -14,4 +14,6 @@ Pod::Spec.new do |spec|
     spec.resource_bundles = {
         'Kvalifika' => ['Kvalifika/**/*.{storyboard,png,gif,xcassets,ttf,xib,json,strings,bundle}']
     }
+    spec.dependency ‘FaceTecSDK’, ‘9.3.4’
+    spec.vendored_frameworks = ‘Kvalifika.xcframework’
 end
