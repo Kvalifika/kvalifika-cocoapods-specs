@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
     spec.source       = { :http => "https://kvalifika-ios.s3.eu-central-1.amazonaws.com/sdk/Kvalifika-1.0.15.xcframework.zip" }
     spec.requires_arc = true
     spec.source_files  = 'Kvalifika/**/*.{swift}'
-    spec.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Kvalifika/**"' }
+    spec.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/**/**"' }
     spec.resource_bundles = {
         'Kvalifika' => ['Kvalifika/**/*.{storyboard,png,gif,xcassets,ttf,xib,json,strings,bundle}']
     }
