@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.name           = 'SDKKvalifika'
+    spec.name           = 'Kvalifika'
     spec.version        = '1.0.16'
     spec.summary        = 'SDKKvalifika helps you to uniquely identify your users.'
     spec.description    = 'SDKKvalifika completes a new document API integration and url changed.'
