@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
     }
 
     spec.dependency 'FaceTecSDK', '9.3.4'
-    spec.vendored_frameworks = 'SDKKvalifika.xcframework'
+    spec.vendored_frameworks = 'Kvalifika.xcframework'
 end
