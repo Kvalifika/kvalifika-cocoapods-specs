@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     spec.description    = 'SDKKvalifika completes a new document API integration and url changed.'
     spec.homepage       = 'https://www.kvalifika.com'
     spec.license        = 'MIT'
-    spec.author         = "SDKKvalifika"
+    spec.author         = "Kvalifika"
     spec.platform       = :ios, '11.0'
     spec.swift_version  = '5.0'
     spec.source       = { :http => "https://kvalifika-ios.s3.eu-central-1.amazonaws.com/sdk/SDKKvalifika-1.0.16.xcframework.zip" }
