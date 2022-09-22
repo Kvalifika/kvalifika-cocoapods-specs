@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
         'Kvalifika' => ['Kvalifika/**/*.{storyboard,png,gif,xcassets,ttf,xib,json,strings,bundle}']
     }
 
-    spec.vendored_frameworks = 'Kvalifika.xcframework'
+    spec.vendored_frameworks = 'Kvalifika.xcframework', 'Frameworks/FaceTecSDK.framework'
 end
